@@ -32,7 +32,7 @@ function getAnswers() {
 function renderScore(score, numberOfQuestions) {
     document.querySelector('.result').innerHTML = `You got ${score}/${numberOfQuestions} correct`;
 
-    var confettiSettings = { target: 'my-canvas' };
+    var confettiSettings = { target: 'confetti' };
     var confetti = new ConfettiGenerator(confettiSettings);
     confetti.render();
 }
