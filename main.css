@@ -232,10 +232,10 @@ main{
 }
 
 .timer-points{
-    margin:80px auto;
+    margin:80px 20%;
     border:solid 3px black;
     padding:20px;
-    width:650px;
+    width:auto;
     box-shadow:-1px -1px 20px rgba(100, 176, 226);
 }
 

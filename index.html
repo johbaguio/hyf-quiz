@@ -1,61 +1,62 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <header id="top">
-            <h1>The fantastical, funny, weird, superduper and awesome <span>HYF quiz</span></h1>
-        </header>
-        <main>
-            <div class = 'timer'></div>
-            <form action="">
-                <ul class="questions" >
-                </ul>
-               <button class="get-score">Get score</button>
-            </form>
-            <div class="result">
-                
-            </div>
-            <div id="extra-points"></div>
-            <form> 
-                <button  class= "score-summary hidden">Show Answers</button>
-            </form>
-            <div class="modal">
-              <div class = "modal-contents"> 
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="top">
+        <h1>The fantastical, funny, weird, superduper and awesome <span>HYF quiz</span></h1>
+    </header>
+    <main>
+        <div class='timer'></div>
+        <form action="">
+            <ul class="questions">
+            </ul>
+            <button class="get-score">Get score</button>
+        </form>
+        <div class="result">
+
+        </div>
+        <div id="extra-points"></div>
+        <form>
+            <button class="score-summary hidden">Show Answers</button>
+        </form>
+        <div class="modal">
+            <div class="modal-contents">
                 <div class="close">+</div>
-                <ul class="answers" >
+                <ul class="answers">
                 </ul>
                 <form>
                     <button class='restart-quiz'>Restart Quiz</button>
                 </form>
-                
-              </div>
+
             </div>
-            <canvas id="confetti"></canvas>
-        </main>
-        <div class="intro">
-            <div>
-                <h3 class = "timer-points">
-                    ✔ Answer the quiz  < 1 minute  to get 10 points on top of your score. <br>
-                    ✔ Answer the quiz  1 - 2 minutes  to get 5 points on top of your score. <br>
+        </div>
+        <canvas id="confetti"></canvas>
+    </main>
+    <div class="intro">
+        <div>
+            <h3 class="timer-points">
+                ✔ Answer the quiz < 1 minute to get 10 points on top of your score. <br><br>
+                    ✔ Answer the quiz 1 - 2 minutes to get 5 points on top of your score. <br><br>
                     ✘ Two minutes or more, no extra points.
-                </h3>
-            </div>
-            <div class="btn-intro">
-                <h3>Choose difficulty level: </h3>
-                <input type ="radio" class="difficulty easy">Easy</input>
-                <input type ="radio" class="difficulty hard">Hard</input>
-            </div>
-            <button class="start-quiz">Start Quiz</button>
-        </div>  
-       
-        <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
-        <script src="helper.js"></script>
-        <script src="main.js"></script>
-    </body>
+            </h3>
+        </div>
+        <div class="btn-intro">
+            <h3>Choose difficulty level: </h3>
+            <input type="radio" class="difficulty easy">Easy</input>
+            <input type="radio" class="difficulty hard">Hard</input>
+        </div>
+        <button class="start-quiz">Start Quiz</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
+    <script src="helper.js"></script>
+    <script src="main.js"></script>
+</body>
 
 </html>
-
